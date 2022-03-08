@@ -5,6 +5,7 @@ import Footer from "../../components/Footer";
 
 // EDITABLE
 import background from "../../assets/img/background.jpg"; //Background
+import backgroundMobile from "../../assets/img/backgroundM.jpg"; //BackgroundMobile
 import logo from "../../assets/img/logo.png"; //Logo
 
 function pageLayout(props) {
@@ -22,6 +23,7 @@ function pageLayout(props) {
       <Hero
         logo={logo}
         background={background}
+        backgroundMobile={backgroundMobile}
         deskripsi={deskripsi}
         title1={title1}
         title2={title2}
